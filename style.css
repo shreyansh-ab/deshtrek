@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    color: white;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #323333;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 8px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar2{
+    height: 60px;
+    background-color: rgb(1, 176, 230);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.navbar2 a:hover{
+border: solid 1.3px white;
+padding: 8px;
+border-radius: 8px;
+}
+
+.part1 a{
+
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.part2 a{
+
+    text-decoration: none;
+    margin-right: 40px;
+
+}
+
+.part2 button {
+height: 30px;
+width: 70px;
+color: rgb(1, 176, 230);
+background-color:white;
+border-radius: 30px;
+border: none;
+margin-right: 30px;
+font-size: large;
+
+}
+
+/* mainbody */
+
+
+.hero{
+    height: 400px;
+    width:100%;
+    background-image: url(/mitryatra/images/herofinal.png);
+    background-size: cover;
+    
+    /* opacity: 0.7; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero h2{
+    font-size: xx-large;
+    color:black;
+    opacity: 1.0 !important; 
+}
