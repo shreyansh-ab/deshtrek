@@ -2,6 +2,7 @@
     margin: 0%;
     color: white;
     
+    
 }
 
 .navbar{
@@ -181,7 +182,65 @@ background-color: #e2e7e6;
 
 
 .footer{
-    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
     background-color:rgb(1, 176, 230); 
+    margin-top: 20px;
+    color: #e2e7e6;
+    font-size: 25px;
 }
 
+.footer a i{
+    color:#e2e7e6;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+
+.foot2nd{
+color: black;
+height: 800px;
+display: flex;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+
+}
+
+.follow{
+    border: 1px solid black;
+    width: 30%;
+}
+.follow img {
+    height: 80px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+
+.follow h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: rgb(1, 176, 230); 
+}
+.follow a i{
+    color:#323333;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.location{
+    border: 1px solid black;
+    color: black;
+    width: 30%;
+}
+
+.about{
+    border: 1px solid black;
+    color: black;
+    width: 30%;
+}
