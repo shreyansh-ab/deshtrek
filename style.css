@@ -201,7 +201,7 @@ background-color: #e2e7e6;
 
 .foot2nd{
 color: black;
-height: 800px;
+height: 450px;
 display: flex;
 justify-content: space-evenly;
 background-color: #e2e7e6;
@@ -209,8 +209,7 @@ background-color: #e2e7e6;
 }
 
 .follow{
-    border: 1px solid black;
-    width: 30%;
+    width: 34%;
 }
 .follow img {
     height: 80px;
@@ -233,14 +232,144 @@ background-color: #e2e7e6;
     
 }
 
-.location{
-    border: 1px solid black;
-    color: black;
-    width: 30%;
+.subscribe{
+    height: 200px;
+    margin-top: 40px;
 }
 
-.about{
+.subscribe h3{
+    margin-left: 40px;
+    color: rgb(1, 176, 230); 
+}
+
+.subscribe input{
+    margin-left: 40px;
+    margin-top: 15px;
+
+    text-align: center;
+
+    width: 250px;
+    height: 25px;
+
+    border-radius: 25px;
     border: 1px solid black;
-    color: black;
-    width: 30%;
+}
+
+.subscribe button {
+    margin-left: 40px;
+    margin-top: 15px;
+
+
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color:rgb(1, 176, 230);
+    border-radius: 30px;
+    border: none;
+    margin-right: 30px;
+    font-size: large;
+    
+    }
+.subscribe h5{
+        margin-left: 40px;
+        color: rgb(63, 63, 63); 
+        margin-top: 15px;
+    }
+
+    .subscribe h5 a{
+        color: blue;
+        text-decoration: underline;
+    }
+
+.location{
+    width: 23%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.location h2{
+    color: rgb(1, 176, 230);
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.location a {
+    text-decoration: none;
+    color: rgb(49, 48, 48); 
+    margin-left: 70px;
+
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+
+    width: 23%;
+}
+
+
+.shop{
+    width: 23%;
+}
+.ab1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.ab1 h2{
+    color: rgb(1, 176, 230);
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.ab1 a {
+    text-decoration: none;
+    color: rgb(49, 48, 48); 
+    margin-left: 70px;
+    margin-top: 15px;
+
+}
+
+
+.ab2{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ab2 h2{
+    color: rgb(1, 176, 230);
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.ab2 a {
+    text-decoration: none;
+    color: rgb(49, 48, 48); 
+    margin-left: 70px;
+    margin-top: 15px;
+
+}
+
+
+.foot3rd{
+    height: 100px;
+    background-color: #323333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.language select{
+     color:black;
+     font-size: larger;
+     height: 25px;
+}
+
+.language option{
+    color:black;
 }
