@@ -32,6 +32,16 @@ padding: 5px;
 border-radius: 25px;
 }
 
+.part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo img:hover{
+    border: solid 1.3px white;
+    border-radius: 25px;
+}
 .part1 a{
 
     text-decoration: none;
@@ -211,17 +221,19 @@ background-color: #e2e7e6;
 .follow{
     width: 34%;
 }
-.follow img {
-    height: 80px;
+.image {
+    height: 100px;
     width: 200px;
     margin-left: 40px;
     margin-top: 40px;
+    background-image: url(/images/logo.jpg);
+    background-size: cover;
     
 }
 
 .follow h2{
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: rgb(1, 176, 230); 
 }
 .follow a i{
