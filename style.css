@@ -28,8 +28,8 @@
 
 .navbar2 a:hover{
 border: solid 1.3px white;
-padding: 8px;
-border-radius: 8px;
+padding: 5px;
+border-radius: 25px;
 }
 
 .part1 a{
