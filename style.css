@@ -170,6 +170,11 @@ background-color: #e2e7e6;
 
 }
 
+.click a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
 .stimage1{
     height: 200px;
     width: 230px;
@@ -314,6 +319,11 @@ background-color: #e2e7e6;
 
 }
 
+.location a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
 
 .about{
     display: flex;
@@ -346,6 +356,11 @@ background-color: #e2e7e6;
 
 }
 
+.ab1 a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
 
 .ab2{
     /* border: 1px solid black; */
@@ -365,6 +380,11 @@ background-color: #e2e7e6;
     margin-left: 70px;
     margin-top: 15px;
 
+}
+
+.ab2 a:hover{
+    transform: scale(1.1);
+    color: blue;
 }
 
 

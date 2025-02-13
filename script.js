@@ -1,0 +1,1 @@
+alert("Note:\nThis is just a front end project by Shreyansh.\nIt's not the real Website.\nAs it is still only front end so the website is not still functional");
