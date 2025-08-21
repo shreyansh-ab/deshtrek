@@ -18,8 +18,12 @@
 </head>
 <body>
  
-<div class="header">
-
+    <div class="header">
+        <div class="notice-banner" id="noticeBanner" role="status" aria-live="polite" style="color: black;">
+          <span>Note: This is just a front-end project demo by shreyansh.The  features are non-functional in the website.</span>
+          <button id="closeBannerBtn" aria-label="Dismiss notice">&times;</button>
+         </div>
+        
     <div class="navbar">
         <i><h2>Travel Together,Travel Far</h2></i>
     </div>
@@ -28,7 +32,7 @@
 
         <div class="part1">
             <div class="navlogo">
-                <img src="/images/logo.jpg" alt="" height="45px" style="margin-left: 20px; margin-top: 3px; border-radius: 25px;">
+                <img src="images/logo.jpg" alt="DeshTrek logo" height="45">
             </div>
             <div class="navpart1">
             <a href="">Destination</a>
@@ -39,23 +43,14 @@
         </div>
 
         <div class="part2">
-            <a href="" style="text-decoration: none;
-    margin-right: 40px;">Search <i class="fa-solid fa-magnifying-glass"></i></a> 
-            <a href="" style="text-decoration: none;
-    margin-right: 40px;">Saved <i class="fa-regular fa-bookmark"></i></a> 
-            <button style="height: 30px;
-            width: 70px;
-            color: rgb(1, 176, 230);
-            background-color:white;
-            border-radius: 30px;
-            border: none;
-            margin-right: 30px;
-            font-size: large;
-            ">Sign-in</button> 
+            <a href="" class="nav-link">Search <i class="fa-solid fa-magnifying-glass"></i></a> 
+            <a href="" class="nav-link">Saved <i class="fa-regular fa-bookmark"></i></a> 
+            <button class="sign-in-btn">Sign-in</button> 
         </div>
     </div>
 
 </div>
+<!-- Dismissible notice banner -->
 
 <div class="main">
     <div class="hero">
@@ -84,7 +79,7 @@
                 <div class="state">
                     KARNATAKA
                 </div>
-                <div class="stimage1" style="background-image: url(/images/ka3.jpeg);">
+                <div class="stimage1" style="background-image: url(images/ka3.jpeg);">
                 </div> 
                 <div class="click">
                     <a href="">See more</a>
@@ -95,7 +90,7 @@
             <div class="state">
                 KERALA
             </div>
-            <div class="stimage" style="background-image: url(/images/ke2.jpeg);">
+            <div class="stimage" style="background-image: url(images/ke2.jpeg);">
 
             </div>
             <div class="click">
@@ -107,7 +102,7 @@
             <div class="state">
                 DELHI
             </div>
-            <div class="stimage" style="background-image: url(/images/delhi.jpeg);">
+            <div class="stimage" style="background-image: url(images/delhi.jpeg);">
             </div>
             <div class="click">
                 <a href="">See more</a>
@@ -118,7 +113,7 @@
             <div class="state">
                 JAMMU & KASHMIR
             </div>
-            <div class="stimage" style="background-image: url(/images/JK.jpeg);">
+            <div class="stimage" style="background-image: url(images/JK.jpeg);">
             </div>
             <div class="click">
                 <a href="">See more</a>
@@ -139,7 +134,7 @@
                 <div class="state">
                     UTTAR PRADESH
                 </div>
-                <div class="stimage1" style="background-image: url(/images/UP.jpeg);">
+                <div class="stimage1" style="background-image: url(images/UP.jpeg);">
                 </div> 
                 <div class="click">
                     <a href="">See more</a>
@@ -150,7 +145,7 @@
             <div class="state">
                 RAJASTHAN
             </div>
-            <div class="stimage" style="background-image: url(/images/rj2.jpeg);">
+            <div class="stimage" style="background-image: url(images/rj2.jpeg);">
 
             </div>
             <div class="click">
@@ -162,7 +157,7 @@
             <div class="state" style="font-size: medium;">
                 ARUNACHAL PRADESH
             </div>
-            <div class="stimage" style="background-image: url(/images/Ap.jpeg);">
+            <div class="stimage" style="background-image: url(images/Ap.jpeg);">
             </div>
             <div class="click">
                 <a href="">See more</a>
@@ -173,7 +168,7 @@
             <div class="state">
                 MADHYA PRADESH
             </div>
-            <div class="stimage" style="background-image: url(/images/mp.jpeg);">
+            <div class="stimage" style="background-image: url(images/mp.jpeg);">
             </div>
             <div class="click">
                 <a href="">See more</a>
@@ -280,7 +275,7 @@
 </div>
 
 
-<script src="/script.js">
+<script src="script.js">
 
 </script>
 
